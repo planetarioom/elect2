@@ -10,8 +10,9 @@ int main() {
         while(fgets(content,1000,fptr)){
             printf("%s", content);
         }
+        printf("\n");
     } else {
-        printf("File is not opened or not existing.");
+        printf("File is not opened or not existing.\n");
         return 1;
     }
 
