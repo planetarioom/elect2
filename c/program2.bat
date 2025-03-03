@@ -1,4 +1,4 @@
 @echo off
-echo Running program2.c (prints file contents)
+echo Running program2 (prints file)
 program2.exe
 pause
